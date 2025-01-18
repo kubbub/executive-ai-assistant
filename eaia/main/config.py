@@ -1,7 +1,11 @@
-import yaml
 from pathlib import Path
 
+import icecream as ic
+import yaml
+
 _ROOT = Path(__file__).absolute().parent
+
+ic.ic(_ROOT)
 
 
 def get_config(config: dict):

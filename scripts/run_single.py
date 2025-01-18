@@ -1,11 +1,11 @@
 """Script for testing a single run through an agent."""
 
 import asyncio
-from langgraph_sdk import get_client
-import uuid
 import hashlib
+import uuid
 
 from eaia.schemas import EmailData
+from langgraph_sdk import get_client
 
 
 async def main():
